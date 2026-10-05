@@ -1,0 +1,19 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Bazaarly | Shop</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="css/style.css"></head>
+<body data-search="1"><header class="top" id="top"></header>
+<main class="wrap">
+<section class="hero"><h1>Shop the shelf</h1><p class="status" id="status">Connecting to the store…</p></section>
+<div class="bar"><div class="chips" id="chips"></div>
+<div class="tools"><select id="sort" aria-label="Sort products"><option value="default">Featured</option><option value="price-asc">Price, low to high</option><option value="price-desc">Price, high to low</option><option value="name-asc">Name, A to Z</option><option value="rating-desc">Top rated</option></select><button class="btn dark" id="openAdd">Add product</button></div></div>
+<div id="spinner" class="spinner" role="status"><i></i>Loading products…</div>
+<div id="error-msg" class="error" role="alert" hidden><p id="error-text"></p><button class="btn" id="retry">Try again</button></div>
+<div class="grid" id="grid"></div><nav class="pager" id="pager" aria-label="Pages"></nav></main>
+<dialog id="addDialog"><form id="add-form" method="dialog"><h2>Add a product</h2>
+<label>Title<input id="title" required maxlength="80"></label>
+<div class="two"><label>Price (USD)<input id="price" type="number" step="0.01" min="0.01" required></label>
+<label>Category<input id="category" list="cats" required></label></div><datalist id="cats"></datalist>
+<label>Image URL <small>(optional)</small><input id="image" type="url" placeholder="https://…"></label>
+<label>Description<textarea id="description" rows="3"></textarea></label>
+<div class="row"><button type="button" class="btn ghost" id="cancelAdd">Cancel</button><button class="btn dark" id="saveAdd">Add product</button></div></form></dialog>
+<dialog id="confirm"><h2>Delete this product?</h2><p id="confirmText"></p><div class="row"><button class="btn ghost" id="no">Keep it</button><button class="btn danger" id="yes">Delete</button></div></dialog>
+<div class="toast" id="toast" role="status"></div>
+<script type="module" src="js/catalog.js"></script></body></html>

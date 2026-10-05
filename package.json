@@ -1,0 +1,4 @@
+{ "name": "product-catalog", "private": true,
+  "scripts": {
+    "seed": "node -e \"fetch('https://fakestoreapi.com/products').then(r=>r.json()).then(p=>require('fs').writeFileSync('db.json',JSON.stringify({products:p},null,2)))\"",
+    "api": "npx json-server@0.17.4 --watch db.json --port 3000" } }

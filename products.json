@@ -1,0 +1,146 @@
+[
+ {
+  "id": 1,
+  "title": "Wireless Headphones",
+  "price": 79.99,
+  "description": "Over-ear Bluetooth headphones with noise cancelling and 30 hour battery life.",
+  "category": "electronics",
+  "image": "img/1.svg",
+  "rating": {
+   "rate": 4.5,
+   "count": 87
+  }
+ },
+ {
+  "id": 2,
+  "title": "Mechanical Keyboard",
+  "price": 109.0,
+  "description": "Hot-swappable mechanical keyboard with tactile switches and backlight.",
+  "category": "electronics",
+  "image": "img/2.svg",
+  "rating": {
+   "rate": 4.7,
+   "count": 124
+  }
+ },
+ {
+  "id": 3,
+  "title": "4K Action Camera",
+  "price": 189.5,
+  "description": "Waterproof 4K camera with image stabilization for travel and sport.",
+  "category": "electronics",
+  "image": "img/3.svg",
+  "rating": {
+   "rate": 4.3,
+   "count": 161
+  }
+ },
+ {
+  "id": 4,
+  "title": "Portable SSD 1TB",
+  "price": 94.0,
+  "description": "Pocket-sized solid state drive with fast USB-C transfer speeds.",
+  "category": "electronics",
+  "image": "img/4.svg",
+  "rating": {
+   "rate": 4.6,
+   "count": 198
+  }
+ },
+ {
+  "id": 5,
+  "title": "Running Shoes",
+  "price": 64.9,
+  "description": "Lightweight breathable running shoes with cushioned soles.",
+  "category": "men's clothing",
+  "image": "img/5.svg",
+  "rating": {
+   "rate": 4.1,
+   "count": 235
+  }
+ },
+ {
+  "id": 6,
+  "title": "Denim Jacket",
+  "price": 55.99,
+  "description": "Classic fit denim jacket, stonewashed for a lived-in look.",
+  "category": "men's clothing",
+  "image": "img/6.svg",
+  "rating": {
+   "rate": 4.0,
+   "count": 272
+  }
+ },
+ {
+  "id": 7,
+  "title": "Summer Dress",
+  "price": 39.99,
+  "description": "Light floral dress in breathable cotton, easy to dress up or down.",
+  "category": "women's clothing",
+  "image": "img/7.svg",
+  "rating": {
+   "rate": 4.4,
+   "count": 309
+  }
+ },
+ {
+  "id": 8,
+  "title": "Rain Jacket",
+  "price": 44.5,
+  "description": "Packable windbreaker with a hood and water resistant finish.",
+  "category": "women's clothing",
+  "image": "img/8.svg",
+  "rating": {
+   "rate": 3.8,
+   "count": 346
+  }
+ },
+ {
+  "id": 9,
+  "title": "Silver Bracelet",
+  "price": 120.0,
+  "description": "Handmade sterling silver bracelet with an adjustable clasp.",
+  "category": "jewelery",
+  "image": "img/9.svg",
+  "rating": {
+   "rate": 4.6,
+   "count": 383
+  }
+ },
+ {
+  "id": 10,
+  "title": "Gold Ring",
+  "price": 168.0,
+  "description": "Petite gold-plated ring with a micropave finish.",
+  "category": "jewelery",
+  "image": "img/10.svg",
+  "rating": {
+   "rate": 3.9,
+   "count": 420
+  }
+ },
+ {
+  "id": 11,
+  "title": "Ceramic Mug Set",
+  "price": 24.5,
+  "description": "Set of four stoneware mugs, dishwasher and microwave safe.",
+  "category": "home",
+  "image": "img/11.svg",
+  "rating": {
+   "rate": 4.5,
+   "count": 457
+  }
+ },
+ {
+  "id": 12,
+  "title": "Desk Lamp",
+  "price": 32.0,
+  "description": "Dimmable LED desk lamp with adjustable arm and USB charging port.",
+  "category": "home",
+  "image": "img/12.svg",
+  "rating": {
+   "rate": 4.2,
+   "count": 494
+  }
+ }
+]
